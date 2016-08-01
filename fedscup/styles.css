@@ -31,5 +31,5 @@ nav a{
 }
 
 html {
-  background: url('./fedscup/image/UEFA-2016-Background.jpg') no-repeat center center fixed; 
+  background: url('/image/UEFA-2016-Background.jpg') no-repeat center center fixed; 
 }
