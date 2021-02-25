@@ -1,0 +1,28 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "windows16.png",
+      "default_title": "Sign in to websites with accounts on Windows 10"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "content.js" ],
+      "matches": [ "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Sign in to supported websites with accounts on Windows 10",
+   "icons": {
+      "128": "windows128.png",
+      "16": "windows16.png",
+      "48": "windows48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAi3iQDRjhZPFBKBhdtYmwnGuCdJFaL2ium4uGMsmm2pjZW8ZNSGMEiEOswJV5m+wWT/aOhW4pWWeAb8QVPWFaYUOQxUdYrjqGrAZYNcJNdvS8/xvmvOvabE81WozjGZkX0P7RLcBuqBVZNIRXHH6+wLosEFZ+Fk3kyb3iDnZeihAk7xZbZHe01qMqbP2lT8aSSnX102dDocrWzOyCpbwyRWHPAMKRuSj1HR4O07sBc19aObW2RsNTDu4oicdTk2CjmkOh49z07NyEWkyVi/Y5Fb31diwsirOoMFLTF5gy8o+1zLv2J7bRqI+I8t8o45OLBeWL8Gu69ji3NWLFUqw2uwIDAQAB",
+   "manifest_version": 2,
+   "name": "Windows 10 Accounts",
+   "permissions": [ "nativeMessaging" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.2"
+}

@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("1.2.3:1", "", "Tech", "EARoot/EA1/EA2/EA3/EA292.htm", "178.png", "456", "0", "", "Component diagram0","{5DA6C5E6-F6FA-4cba-8F1A-532444105ED2}");
+tocTab[tocTab.length] = new Array("1.2.3.1", "", "«system» Kalais", "EARoot/EA1/EA2/EA3/EA294.htm", "225.png", "", "", "{E184317C-0913-4649-B9F9-7717BB0FC13B}", "Package");

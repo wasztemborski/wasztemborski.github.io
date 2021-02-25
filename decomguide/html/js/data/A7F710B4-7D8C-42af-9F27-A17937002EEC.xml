@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("1.3.1.2:1", "", "«FATS» Menoitos", "EARoot/EA1/EA3/EA1/EA2/EA347.htm", "10.png", "2087", "0", "", "Component0","{E3857A11-C9F9-420e-80D5-36C00FF2986A}");
+tocTab[tocTab.length] = new Array("1.3.1.2.1", "1", "Chimera", "EARoot/EA1/EA3/EA1/EA2/EA346.htm", "4.png", "", "", "{44B133F0-E2F6-4296-860D-41A25BD419DC}", "Package");
+tocTab[tocTab.length] = new Array("1.3.1.2.2", "1", "Theseus", "EARoot/EA1/EA3/EA1/EA2/EA348.htm", "4.png", "", "", "{3522809F-4674-4f11-9C86-466CF0A066CE}", "Package");

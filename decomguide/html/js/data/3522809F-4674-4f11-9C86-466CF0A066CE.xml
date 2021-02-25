@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("1.3.1.2.2:1", "", "«Custodian» Cyclops", "EARoot/EA1/EA3/EA1/EA2/EA2/EA350.htm", "25.png", "2091", "0", "", "Object0","{614D46BF-2248-4c80-8B61-EACB9ABC90E9}");
+tocTab[tocTab.length] = new Array("1.3.1.2.2:2", "", "«FATS» Menoitos", "EARoot/EA1/EA3/EA1/EA2/EA2/EA351.htm", "25.png", "2092", "0", "", "Object0","{EA269019-3126-448f-AD42-B6C260C90E87}");
+tocTab[tocTab.length] = new Array("1.3.1.2.2:3", "", "«External Entity» Morus", "EARoot/EA1/EA3/EA1/EA2/EA2/EA352.htm", "25.png", "2090", "0", "", "Object0","{174C12F4-5554-4f8a-B6DB-EC962B8FCEBF}");

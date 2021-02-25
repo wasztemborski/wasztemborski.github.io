@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("1.4.1:1", "", "Logging", "EARoot/EA1/EA4/EA1/EA597.htm", "178.png", "473", "0", "", "Component diagram0","{B1DCBD7D-44A2-4da4-A758-EFA535D1A2D7}");
+tocTab[tocTab.length] = new Array("1.4.1:2", "", "«MSMQ» Galeus", "EARoot/EA1/EA4/EA1/EA602.htm", "25.png", "2316", "0", "", "Object0","{BDC5F93F-D600-4add-8E6F-14078AFCC670}");
+tocTab[tocTab.length] = new Array("1.4.1:3", "", "«MSMQ» Ploutos", "EARoot/EA1/EA4/EA1/EA603.htm", "25.png", "2315", "0", "", "Object0","{82F12DA4-036D-4e6a-8B48-15A60517B3B8}");

@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("1.2.1.59:1", "", "Aglaea", "EARoot/EA1/EA2/EA1/EA59/EA230.htm", "182.png", "422", "0", "", "CompositeStructure diagram0","{978F47BF-9421-43ee-BEF2-5F67F128B09A}");
+tocTab[tocTab.length] = new Array("1.2.1.59:2", "", "Cerynitis", "EARoot/EA1/EA2/EA1/EA59/EA232.htm", "178.png", "421", "0", "", "Component diagram0","{AA114F48-A7A2-41b1-8EC0-B777B3B43645}");
+tocTab[tocTab.length] = new Array("1.2.1.59:3", "", "Europa", "EARoot/EA1/EA2/EA1/EA59/EA236.htm", "82.png", "1986", "0", "", "Artifact0","{AA9683D0-CBFF-496f-865B-C5D1625D2D8C}");
