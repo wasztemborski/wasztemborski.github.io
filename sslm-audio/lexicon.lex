@@ -10,6 +10,10 @@
         <alias>By the way</alias>
     </lexeme>
     <lexeme>
+        <grapheme>WFT</grapheme>
+        <alias>Butterfly leg</alias>
+    </lexeme>
+    <lexeme>
         <grapheme>Benigni</grapheme>
         <phoneme>bɛˈniːnji</phoneme>
     </lexeme>
