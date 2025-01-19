@@ -10,7 +10,7 @@
         <alias>By the way</alias>
     </lexeme>
     <lexeme>
-        <grapheme>WFT</grapheme>
+        <grapheme>WTF</grapheme>
         <alias>Butterfly leg</alias>
     </lexeme>
     <lexeme>
