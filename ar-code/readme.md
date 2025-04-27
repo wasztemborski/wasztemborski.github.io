@@ -14,3 +14,12 @@ https://github.com/AR-js-org/AR.js/blob/master/aframe/examples/location-based/he
 https://hiukim.github.io/mind-ar-js-doc/examples/minimal
 https://www.3dpea.com/en/convert/SVG-to-GLTF#google_vignette
 
+
+
+https://wasztemborski.github.io/ar-code/basic-hiro-box.html
+https://wasztemborski.github.io/ar-code/basic-hiro-diono.html
+https://wasztemborski.github.io/ar-code/basic-hiro-video-mis.html
+https://wasztemborski.github.io/ar-code/demo-video-agata.html
+https://wasztemborski.github.io/ar-code/demo-video-mis.html
+https://wasztemborski.github.io/ar-code/demo-videosphere.html
+https://wasztemborski.github.io/ar-code/mind-agata.html
