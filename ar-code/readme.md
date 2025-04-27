@@ -10,3 +10,5 @@ https://medium.com/chialab-open-source/ar-js-the-simpliest-way-to-get-cross-brow
 https://github.com/AR-js-org/AR.js/blob/master/aframe/examples/marker-based/basic.html
 
 https://github.com/AR-js-org/AR.js/blob/master/aframe/examples/location-based/hello-world/index.html
+
+https://hiukim.github.io/mind-ar-js-doc/examples/minimal
