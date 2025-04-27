@@ -12,3 +12,5 @@ https://github.com/AR-js-org/AR.js/blob/master/aframe/examples/marker-based/basi
 https://github.com/AR-js-org/AR.js/blob/master/aframe/examples/location-based/hello-world/index.html
 
 https://hiukim.github.io/mind-ar-js-doc/examples/minimal
+https://www.3dpea.com/en/convert/SVG-to-GLTF#google_vignette
+

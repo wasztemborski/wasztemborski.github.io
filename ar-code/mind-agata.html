@@ -14,6 +14,8 @@
     >
       <a-assets>
         <img id="agate-png" src="assets/biztech-agata.png" />
+        <a-asset-item id="gftModel" src="assets/GFT_Technologies_logo.gltf"></a-asset-item>
+      
         <video
           id="agata-video"
           autoplay
@@ -28,18 +30,10 @@
       <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
 
       <a-entity mindar-image-target="targetIndex: 0">
+       <!--
         <a-plane src="#agate-png" position="0 0 0" height="1.5" width="1" rotation="0 0 0"></a-plane>
-       
-        <!--
-        <a-video
-          src="#agata-video"
-          width="16"
-          height="9"
-          position="0 0 -20"
-          crossorigin="anonymous"
-          play-on-click
-        ></a-video>
-        -->
+      -->
+        <a-gltf-model id="avatar" rotation="0 0 0"  scale="0.004 0.004 0.004" position="0 1 0" src="#gftModel"></a-gltf-model>
       </a-entity>
     </a-scene>
   </body>
