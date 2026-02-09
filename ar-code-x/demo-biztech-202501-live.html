@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-image-aframe.prod.js"></script>
+    <script src="js/play-on-click.js"></script>
+    <script src="js/hide-on-play.js"></script>
+  </head>
+  <body>
+    <a-scene
+      mindar-image="imageTargetSrc: assets/biztech-202501.mind; maxTrack: 1"
+      color-space="sRGB"
+      renderer="colorManagement: true, physicallyCorrectLights"
+      vr-mode-ui="enabled: false"
+      device-orientation-permission-ui="enabled: false"
+    >
+      <a-assets>
+        <img id="play-button" src="assets/play2.png" crossorigin="anonymous" />
+        <video
+          id="biztech-202501-video"
+          loop
+          crossorigin="anonymous"
+          playsinline
+          webkit-playsinline
+          muted
+          src="assets/biztech-202501.mp4"
+        ></video>
+      </a-assets>
+      <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
+      <a-entity mindar-image-target="targetIndex: 0">
+        <a-video
+          id="biztech-202501-video-entity"
+          src="#biztech-202501-video"
+          width="1"
+          height="1.4"
+          position="0 0.0 0"
+          crossorigin="anonymous"
+          play-on-click
+          visible="false"
+        ></a-video>
+        <a-image
+          id="play-button"
+          src="#play-button"
+          position="0 0.2 0.1"
+          width="0.3"
+          height="0.3"
+          play-on-click
+          hide-on-play="#biztech-202501-video"
+          visible="true"
+          animation="property: scale; to: 1.5 1.5 1.5; dir: alternate; dur: 500; loop: true"
+        ></a-image>
+      </a-entity>
+    </a-scene>
+  </body>
+</html>

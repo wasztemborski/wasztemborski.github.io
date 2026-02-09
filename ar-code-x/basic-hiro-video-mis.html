@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+  <!-- we import arjs version without NFT but with marker + location based support -->
+  <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+  <script src="js/play-on-click.js"></script>
+  <script src="js/hide-on-play.js"></script>
+  <body style="margin: 0px; overflow: hidden">
+    <a-scene embedded arjs>
+      <a-assets>
+        <video
+          id="video"
+          loop
+          crossorigin="anonymous"
+          playsinline
+          webkit-playsinline
+          src="assets/uszatek na taras.mp4"
+        ></video>
+      </a-assets>
+
+      <a-marker preset="hiro">
+        <a-entity
+          material="shader: flat; src: #video"
+          geometry="primitive: plane; width: 160; height: 90;"
+          position="0 0 -1.5"
+          rotation="0 0 0"
+          scale="0.02 0.02 0.02"
+          play-on-click
+          visible="true"
+        >
+        </a-entity>
+      </a-marker>
+      <a-camera>
+        <a-entity
+          position="0 0 -1.5"
+          text="align: center;
+                width: 6;
+                wrapCount: 100;
+                color: black;
+                value: Click or tap to start video"
+          hide-on-play="#video"
+        >
+        </a-entity>
+      </a-camera>
+    </a-scene>
+  </body>
+</html>
